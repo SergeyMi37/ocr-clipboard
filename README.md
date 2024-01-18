@@ -1,9 +1,10 @@
 
-To install Tesseract OCR for Windows:
+# To install Tesseract OCR for Windows:
 
  1. Run the [installer](https://digi.bib.uni-mannheim.de/tesseract/)(find 2021) from UB Mannheim
  2. Configure your installation (choose installation path and language data to include)
  3. Add Tesseract OCR to your environment variables
+- https://github.com/UB-Mannheim/tesseract/wiki
 
 To install and use Pytesseract on Windows:
  1. Simply run `pip install pytesseract`
@@ -18,9 +19,14 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 python ocr.py
 ```
-
 ```
 python.exe ocr.py
+```
+```
+ [INFO] Save a picture with text to the clipboard and recognize it with a hotkey:
+     For Russian text <Alt + r>
+     For English text <Alt + q>
+ [INFO] Exit the program <Alt + z>
 ```
 # My thanks
 
@@ -29,8 +35,11 @@ python.exe ocr.py
 - https://stackoverflow.com/questions/46140485/tesseract-installation-in-windows
 - https://github.com/tesseract-ocr/tesseract?tab=readme-ov-file#installing-tesseract
 - https://dzen.ru/a/Y5CdY19xiA-YGKXy
-- https://github.com/UB-Mannheim/tesseract/wiki
 
+# Convenient to use in conjunction with a program that places a screen fragment on the clipboard
+https://app.prntscr.com/ru/index.html
+
+# Snippts
 ```
 git add *
 git commit -am "upd"

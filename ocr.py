@@ -38,7 +38,7 @@ def foo(_lang='eng'):
         os.remove(f"{image_path}/TEXT.png")
         
         print(_lang+ " [INFO] The text was successfully saved to the clipboard.")
-        with open('out-text.txt', 'a') as f:
+        with open('out-text.txt', 'a',encoding='utf8') as f:
             f.write(text+"\n")
     except Exception as err:
         print("---error---",err)
