@@ -1,0 +1,22 @@
+.Or create a new repository on the commana line
+
+BNOaveawne
+
+CREATE
+
+SELECT
+SELECT
+eLect
+
+SELECT
+SELECT
+
+SEQUENCE seql;
+
+nextval('seql');
+currval('seql');
+lastval();
+
+setval('seql', 16, true);
+currval('seql');
+
