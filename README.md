@@ -39,9 +39,3 @@ python.exe ocr.py
 # Convenient to use in conjunction with a program that places a screen fragment on the clipboard
 https://app.prntscr.com/ru/index.html
 
-# Snippts
-```
-git add *
-git commit -am "upd"
-git push
-```

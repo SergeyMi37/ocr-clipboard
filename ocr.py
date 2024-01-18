@@ -1,6 +1,6 @@
 import pytesseract
 import keyboard
-import time
+#import time
 import os
 #import win10toast
 import pyperclip

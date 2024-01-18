@@ -1,5 +1,5 @@
 pytesseract
 Pillow
 keyboard
-win10toast
+#win10toast
 pyperclip
