@@ -30,7 +30,7 @@ python.exe ocr.py
 ```
 # Install nj exe
 ```
-pyinstaller --noconfirm --onedir --console  "E:\_proj\_va\_OCR-install\ocr-clipboard\ocr.py"
+pyinstaller --noconfirm --onefile --console  "E:\_proj\_va\_OCR-install\ocr-clipboard\ocr.py"
 ```
 или через интерфейс
 ```

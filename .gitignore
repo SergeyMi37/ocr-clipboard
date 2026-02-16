@@ -14,3 +14,5 @@ out-text.txt
 *.sqlite*
 
 .env
+/output/
+*.spec
