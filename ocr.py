@@ -26,8 +26,8 @@ def foo(_lang='eng'):
         # time.sleep (1)
 
         img = Image.open(f"{image_path}/TEXT.png")
-        pytesseract.pytesseract.tesseract_cmd = r"c:\Program Files\Tesseract-OCR\tesseract.exe"
-
+        pytesseract.pytesseract.tesseract_cmd = r"e:/Program Files/Tesseract-OCR/tesseract.exe"
+        
         # custom_config = r'--oem 3 --psm 13'
         # text = pytesseract.image_to_string(img, lang="rus")
         text = pytesseract.image_to_string(img, lang=_lang)
